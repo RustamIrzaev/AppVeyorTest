@@ -1,0 +1,13 @@
+version: '1.0.{build}'
+
+environment:
+  ASPNETCORE_ENVIRONMENT: PRODUCTION
+
+image: Visual Studio 2017
+
+matrix:
+  fast_finish: true
+
+platform: Any CPU
+
+configuration: Release
