@@ -19,7 +19,7 @@ namespace UnitTest
         {
             var service = new UserService();
             var result = service.IsCredentialsValid("admin", "admin");
-            Assert.False(result);
+            Assert.True(result);
         }
     }
 }
