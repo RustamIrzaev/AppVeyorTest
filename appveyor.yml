@@ -21,3 +21,14 @@ before_build:
   
 build:
   project: AppVeyorTest.sln
+
+cache:
+  - packages -> **\packages.config
+  - projectA\libs
+  - '%LocalAppData%\NuGet\Cache'
+  - '%LocalAppData%\NuGet\v3-cache'
+
+test:
+  assemblies:
+    only:
+      - UnitTest.dll
