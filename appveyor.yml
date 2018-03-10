@@ -11,3 +11,6 @@ matrix:
 platform: Any CPU
 
 configuration: Release
+
+build:
+  project: AppVeyorTest.sln
