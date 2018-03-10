@@ -22,7 +22,6 @@ build:
 
 cache:
   - packages -> **\packages.config
-  - projectA\libs
   - '%LocalAppData%\NuGet\Cache'
   - '%LocalAppData%\NuGet\v3-cache'
 
